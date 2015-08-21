@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapper</title>
+    <link href="style/screen.css" rel="stylesheet" media="all">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+<body>
+    <div class="wrapper">
+
+      <div class="middle">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-2">
+              <button class="reset-btn">Reset Game</button>
+              <p class="bombs-num"></p>
+              <p>Field size</p>
+              <select id="select-field">
+                <option>6</option>
+                <option>12</option>
+                <option>18</option>
+              </select>
+            </div>
+
+            <div class="col-md-10">
+              <div id="field"></div>
+            </div>
+
+
+          
+          </div><!-- end row -->
+
+        </div> <!-- end container -->
+      </div><!-- end middle -->
+
+   
+    </div><!-- end wrapper -->
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/sapper.js"></script>
+  </body>
+</html>
